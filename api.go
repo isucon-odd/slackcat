@@ -90,7 +90,7 @@ func getConversations(types ...string) (list []slack.Channel, err error) {
 	for {
 		param := &slack.GetConversationsParameters{
 			Cursor:          cursor,
-			ExcludeArchived: "true",
+			ExcludeArchived: true,
 			Types:           types,
 			Limit:           1000,
 		}
