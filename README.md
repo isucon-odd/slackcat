@@ -24,7 +24,7 @@ make build
 
 ```
 default_team = "isucon-odd"
-default_channel = "experimental"
+default_channel = "benchmark"
 
 [teams]
   isucon-odd = "xoxb-......" <- botがSlackにメッセージを送信するためのトークン
