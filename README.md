@@ -6,7 +6,7 @@ slackcatの修正バージョン（オリジナルが最近メンテナンスさ
 
 ```
 git clone https://github.com/isucon-odd/slackcat.git
-cd slackbot
+cd slackcat
 make build
 ```
 
